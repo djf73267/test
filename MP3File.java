@@ -4,9 +4,9 @@ public class MP3File implements Comparable<MP3File>, Playable{
 
     private String artist; // the artist performing the song
     private String title; // the title of the song
-    private int minutes; // number of min in length
-    private int seconds; // number of seconds of length of the song (always less than 60)
-    
+    private String pathname;
+    private String album;
+    private String date;
     public MP3File(String artist, String title, String album, String date, String pathname) {
         this.artist= artist;
         this.title = title;
